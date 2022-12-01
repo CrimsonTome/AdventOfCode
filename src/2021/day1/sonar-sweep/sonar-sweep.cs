@@ -50,3 +50,26 @@
 
 // How many measurements are larger than the previous measurement?
 
+using System.IO;
+
+bool debug  = true;
+string path = @"data";
+if (!File.Exists(path))
+{
+    throw new Exception("File not found");
+}
+var reader = new StreamReader(path);
+
+string data = reader.ReadToEnd();
+reader.Close();
+data = data.Trim();
+int[] lines = Array.ConvertAll(data.Split('\n'), int.Parse);
+
+if (debug)
+{
+    for (int i = 0; i < lines.Length; i++)
+    {
+        Console.WriteLine(lines[i]);
+    }
+}
+
