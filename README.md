@@ -3,10 +3,8 @@
 - [AoC](#aoc)
   - [System requirements](#system-requirements)
   - [Development](#development)
-  - [Building](#building)
-    - [.NET](#net)
   - [Running](#running)
-    - [.Net](#net-1)
+    - [.Net](#net)
   - [Changelog](#changelog)
   - [License](#license)
 
@@ -17,14 +15,7 @@
  
 ## Development
 
-- Edit Program.cs files in `src/year/program-name`
-
-## Building
-
-### .NET
-
-- Navigate to `src/`
-- `dotnet build`
+- Edit task-name.cs files in `src/year/program-name`
 
 ## Running
 
@@ -32,8 +23,6 @@
 
 - Navigate to `src/`
 - `dotnet run`  
-
-
 
 ## Changelog
 
