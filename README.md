@@ -17,6 +17,7 @@
  
 ## Development
 
+- Edit Program.cs files in `src/year/program-name`
 
 ## Building
 
