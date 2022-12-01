@@ -1,5 +1,8 @@
 # AoC
 > Solutions for AoC events
+
+POTENTIAL SPOILERS FOR SOLUTIONS
+
 - [AoC](#aoc)
   - [System requirements](#system-requirements)
   - [Development](#development)
